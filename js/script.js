@@ -229,7 +229,7 @@ changemode.addEventListener("click",(event) =>{
 function temaberganti(){
     console.log(number);
     if (number === 1){
-        document.getElementById("themechange").href = "stylesheet.css";
+        document.getElementById("themechange").href = "css/stylesheet.css";
         document.getElementById("logoicon").src = "images/moon.png";
         number = 0;
         console.log(number);
